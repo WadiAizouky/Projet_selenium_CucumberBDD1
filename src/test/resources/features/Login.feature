@@ -10,3 +10,4 @@ Feature: Login
     Examples:
       | arg0                      | arg1           | arg01          |
       | "wadi.aizoukyu@gmail.com" | "Wade11223344" | "Wadi Aizouky" |
+      | "samis@gmail.com"         | "Wade11223344" | "Np"           |

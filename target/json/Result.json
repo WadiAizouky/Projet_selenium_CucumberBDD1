@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-01T14:32:48.431Z",
+        "start_timestamp": "2022-07-01T21:01:55.192Z",
         "before": [
           {
             "result": {
-              "duration": 2530000000,
+              "duration": 2236000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 610000000,
+              "duration": 619000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2545000000,
+              "duration": 2728000000,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 7498000000,
+              "duration": 4840000000,
               "status": "passed"
             },
             "line": 7,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 2027000000,
+              "duration": 7028000000,
               "status": "passed"
             },
             "line": 9,
@@ -89,6 +89,107 @@
               "arguments": [
                 {
                   "val": "\"Wadi Aizouky\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps_dif.Login.Check_login(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T21:02:12.682Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1073000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login to site",
+        "description": "",
+        "id": "login;login-to-site;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 629000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3122000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": the Browser and URL of the site is open",
+            "match": {
+              "location": "steps_dif.Login.OpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10001000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ":write Username with \"samis@gmail.com\" and Password with \"Wade11223344\" in textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samis@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Wade11223344\"",
+                  "offset": 57
+                }
+              ],
+              "location": "steps_dif.Login.WriteInfo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ":i clicked to button login",
+            "match": {
+              "location": "steps_dif.Login.Login_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7040000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ":i should login in in the name \"Np\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Np\"",
                   "offset": 31
                 }
               ],
