@@ -1,0 +1,197 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-01T08:25:46.283Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2575000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 676000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1352000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"Python\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Python\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will see the work \"Python\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Python\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T08:25:51.293Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1051000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 593000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 320000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1014000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"Java\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will see the work \"Java\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "  Search in Google",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Senarios.feature",
+    "tags": []
+  }
+]
