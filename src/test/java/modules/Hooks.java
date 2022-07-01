@@ -1,5 +1,6 @@
 package modules;
 
+import Page_objets.LoginPagClass;
 import Page_objets.SearchClass;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -13,13 +14,12 @@ import java.awt.print.PageFormat;
 
 public class Hooks {
     public static WebDriver webDriver;
-    public static SearchClass searchClassobjet = new SearchClass();
+    public static LoginPagClass LoginInstance = new LoginPagClass();
 
     @Before
     public void Setup(){
         webDriver = get_driver();
-        //webDriver.manage().window().maximize();
-        PageFactory.initElements(webDriver,searchClassobjet);
+        PageFactory.initElements(webDriver,LoginInstance);
     }
 
     @After
