@@ -11,14 +11,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import static Page_objets.LoginPagClass.Login;
+import static modules.Hooks.webDriver;
 
 public class Login {
     @Given(": the Browser and URL of the site is open")
     public void OpenBrowser() {
+        webDriver.get("http://automationpractice.com/index.php");
     }
 
-    @When(":write Username with <wadi.aizoukyu@gmail.com> and Password with <arg{int}> in textbox")
-    public void WriteInfo(int arg0) {
+    @When(":write Username with {string} and Password with {string} in textbox")
+    public void WriteInfo(String arg0, String arg1) {
+        Login(arg0,arg1);
     }
 
     @And(":i clicked to button login")

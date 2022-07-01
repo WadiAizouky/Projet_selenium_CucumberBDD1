@@ -21,14 +21,14 @@ public class LoginPagClass {
     @FindBy(css = "body.my-account.hide-left-column.hide-right-column.lang_en:nth-child(2) div.header-container div.nav:nth-child(2) div.container div.row nav:nth-child(1) div.header_user_info:nth-child(1) a.account > span:nth-child(1)")
     private static WebElement Checkbtn;
 
-    public void Login(String unsername,String password){
+    public static void Login(String unsername,String password){
         Login.click();
         Username.sendKeys(unsername);
         passwd.sendKeys(password);
         LoginBtn.click();
     }
 
-    public void Check(String name){
+    public static void Check(String name){
         Assert.assertEquals(Checkbtn.getText(), name);
     }
 
