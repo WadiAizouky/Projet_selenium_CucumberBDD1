@@ -21,16 +21,17 @@ public class Login {
     }
 
     @When(":write Username with {string} and Password with {string} in textbox")
-    public void WriteInfo(String arg0, String arg1) {
+    public void WriteInfo(String arg0, String arg1) throws InterruptedException {
         Login(arg0,arg1);
     }
 
     @And(":i clicked to button login")
     public void Login_click() {
+        System.out.println("Clicke login");
     }
 
-    @Then(":i should login in in the name <Wadi Aizouky>")
-    public void Check_login() {
+    @Then(":i should login in in the name {string}")
+    public void Check_login(String arg0) {
     }
 
 }

@@ -4,9 +4,9 @@ Feature: Login
 
   Scenario Outline: Login to site
     Given : the Browser and URL of the site is open
-    When :write Username with "arg0" and Password with "arg1" in textbox
+    When :write Username with <arg0> and Password with <arg1> in textbox
     And :i clicked to button login
-    Then :i should login in in the name <Wadi Aizouky>
+    Then :i should login in in the name <arg01>
     Examples:
-      | arg0                    | arg1
-      | wadi.aizoukyu@gmail.com | Wade11223344
+      | arg0                      | arg1           | arg01          |
+      | "wadi.aizoukyu@gmail.com" | "Wade11223344" | "Wadi Aizouky" |
