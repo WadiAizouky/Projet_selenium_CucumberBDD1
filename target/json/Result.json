@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-01T08:25:46.283Z",
+        "start_timestamp": "2022-07-01T10:48:10.764Z",
         "before": [
           {
             "result": {
-              "duration": 2575000000,
+              "duration": 2410000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 676000000,
+              "duration": 656000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 337000000,
+              "duration": 779000000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1352000000,
+              "duration": 1334000000,
               "status": "passed"
             },
             "line": 6,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 21000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 8,
@@ -95,11 +95,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T08:25:51.293Z",
+        "start_timestamp": "2022-07-01T10:48:16.008Z",
         "before": [
           {
             "result": {
-              "duration": 1051000000,
+              "duration": 1020000000,
               "status": "passed"
             },
             "match": {
@@ -114,7 +114,7 @@
         "after": [
           {
             "result": {
-              "duration": 593000000,
+              "duration": 658000000,
               "status": "passed"
             },
             "match": {
@@ -127,7 +127,7 @@
         "steps": [
           {
             "result": {
-              "duration": 320000000,
+              "duration": 333000000,
               "status": "passed"
             },
             "line": 5,
@@ -139,7 +139,7 @@
           },
           {
             "result": {
-              "duration": 1014000000,
+              "duration": 1123000000,
               "status": "passed"
             },
             "line": 6,
@@ -168,8 +168,9 @@
           },
           {
             "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body[1]/div[7]/div[1]/div[10]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/h2[1]/span[1]\"}\n  (Session info: MicrosoftEdge\u003d103.0.1264.44)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.2.1\u0027, revision: \u0027ac4d0fdd4a\u0027\nSystem info: host: \u0027I5402I\u0027, ip: \u002710.64.1.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [07e3e5cc31e5c807612c42d500cb081f, findElement {using\u003dxpath, value\u003d//body[1]/div[7]/div[1]/div[10]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/h2[1]/span[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.44, ms:edgeOptions: {debuggerAddress: localhost:58877}, msedge: {msedgedriverVersion: 103.0.1264.37 (e3a6d3b5b3c3..., userDataDir: D:\\Users\\way\\AppData\\Local\\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58877/devtoo..., se:cdpVersion: 103.0.1264.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 07e3e5cc31e5c807612c42d500cb081f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy22.getText(Unknown Source)\r\n\tat Page_objets.SearchClass.verifierForWord(SearchClass.java:29)\r\n\tat steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(MyStepdefs.java:38)\r\n\tat ✽.i will see the work \"Java\" in the page(file:///D:/Users/way/IdeaProjects/Projet_selenium_CucumberBDD/src/test/resources/features/Senarios.feature:8)\r\n",
               "duration": 19000000,
-              "status": "passed"
+              "status": "failed"
             },
             "line": 8,
             "name": "i will see the work \"Java\" in the page",
@@ -177,6 +178,836 @@
               "arguments": [
                 {
                   "val": "\"Java\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T10:48:19.175Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1070000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 674000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 334000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 629000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"C#\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C#\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will see the work \"C#\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C#\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T10:48:21.909Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1027000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 692000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 306000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1177000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"C++\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will see the work \"C++\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T10:48:25.134Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1039000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 659000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 389000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1157000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"C++\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body[1]/div[7]/div[1]/div[10]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/h2[1]/span[1]\"}\n  (Session info: MicrosoftEdge\u003d103.0.1264.44)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.2.1\u0027, revision: \u0027ac4d0fdd4a\u0027\nSystem info: host: \u0027I5402I\u0027, ip: \u002710.64.1.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [134cbe4a49c827604055ead76a239254, findElement {using\u003dxpath, value\u003d//body[1]/div[7]/div[1]/div[10]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/h2[1]/span[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.44, ms:edgeOptions: {debuggerAddress: localhost:59015}, msedge: {msedgedriverVersion: 103.0.1264.37 (e3a6d3b5b3c3..., userDataDir: D:\\Users\\way\\AppData\\Local\\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59015/devtoo..., se:cdpVersion: 103.0.1264.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 134cbe4a49c827604055ead76a239254\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy22.getText(Unknown Source)\r\n\tat Page_objets.SearchClass.verifierForWord(SearchClass.java:29)\r\n\tat steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(MyStepdefs.java:38)\r\n\tat ✽.i will see the work \"C++\" in the page(file:///D:/Users/way/IdeaProjects/Projet_selenium_CucumberBDD/src/test/resources/features/Senarios.feature:8)\r\n",
+              "duration": 13000000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "i will see the work \"C++\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T10:48:28.395Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1025000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 652000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 315000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1065000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"C++\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will see the work \"C++\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T10:48:31.473Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1065000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 638000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 298000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 948000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"C++\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will see the work \"C++\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T10:48:34.444Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1031000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 650000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 334000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1053000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"C++\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will see the work \"C++\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T10:48:37.538Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1015000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 678000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 323000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1453000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"C++\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will see the work \"C++\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T10:48:41.033Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1014000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 662000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2227000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1368000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"C++\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will see the work \"C++\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iWillSeeTheWorkInThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T10:48:46.325Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1026000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Search for google",
+        "description": "",
+        "id": "google-search;search-for-google;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 660000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 329000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open URL chrome",
+            "match": {
+              "location": "steps_dif.MyStepdefs.openURLChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1061000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i tape the word \"C++\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps_dif.MyStepdefs.iTapeTheWordInSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on the search button",
+            "match": {
+              "location": "steps_dif.MyStepdefs.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will see the work \"C++\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C++\"",
                   "offset": 20
                 }
               ],

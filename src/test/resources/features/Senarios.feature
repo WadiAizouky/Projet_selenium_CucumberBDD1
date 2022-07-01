@@ -10,3 +10,12 @@ Feature: Google Search
       | arg0     |
       | "Python" |
       | "Java"   |
+      | "C#"     |
+      |          |
+      |          |
+      |          |
+      |          |
+      |          |
+      |          |
+      |          |
+      |          |
