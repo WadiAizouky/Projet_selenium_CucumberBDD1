@@ -22,14 +22,15 @@ public class LoginPagClass {
     private static WebElement Checkbtn;
 
     public static void Login(String unsername,String password) throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         Login.click();
         Username.sendKeys(unsername);
         passwd.sendKeys(password);
         LoginBtn.click();
     }
 
-    public static void Check(String name){
+    public static void Check(String name) throws InterruptedException {
+        Thread.sleep(2000);
         Assert.assertEquals(Checkbtn.getText(), name);
     }
 

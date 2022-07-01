@@ -12,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import static Page_objets.LoginPagClass.Login;
+import  static Page_objets.LoginPagClass.Check;
 import static modules.Hooks.webDriver;
 
 public class Login {
@@ -31,7 +32,7 @@ public class Login {
     }
 
     @Then(":i should login in in the name {string}")
-    public void Check_login(String arg0) {
+    public void Check_login(String arg0) throws InterruptedException {
+        Check(arg0);
     }
-
 }
