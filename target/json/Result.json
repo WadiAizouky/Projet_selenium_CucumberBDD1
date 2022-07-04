@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-04T09:09:30.255Z",
+        "start_timestamp": "2022-07-04T13:43:02.672Z",
         "before": [
           {
             "result": {
-              "duration": 2141000000,
+              "duration": 2089000000,
               "status": "passed"
             },
             "match": {
@@ -16,13 +16,13 @@
           }
         ],
         "line": 12,
-        "name": "Login to site passed",
+        "name": "Search an element exist",
         "description": "",
-        "id": "login;login-to-site-passed;;2",
+        "id": "search;search-an-element-exist;;2",
         "after": [
           {
             "result": {
-              "duration": 609000000,
+              "duration": 611000000,
               "status": "passed"
             },
             "match": {
@@ -35,35 +35,31 @@
         "steps": [
           {
             "result": {
-              "duration": 2793000000,
+              "duration": 3900000000,
               "status": "passed"
             },
             "line": 6,
-            "name": ": the Browser and URL of the site is open",
+            "name": "the Browser and URL of the site is open and i\u0027m in Main page",
             "match": {
-              "location": "steps_dif.Login_passed.OpenBrowser()"
+              "location": "steps_dif.Search_passed.theBrowserAndURLOfTheSiteIsOpenAndIMInMainPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5302000000,
+              "duration": 9891000000,
               "status": "passed"
             },
             "line": 7,
-            "name": ":write Username with \"wadi.aizoukyu@gmail.com\" and Password with \"Wade11223344\" in textbox",
+            "name": "i enterd the word \"Blouse\" in the textarea",
             "match": {
               "arguments": [
                 {
-                  "val": "\"wadi.aizoukyu@gmail.com\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"Wade11223344\"",
-                  "offset": 65
+                  "val": "\"Blouse\"",
+                  "offset": 18
                 }
               ],
-              "location": "steps_dif.Login_passed.WriteInfo(java.lang.String,java.lang.String)"
+              "location": "steps_dif.Search_passed.iEnterdTheWordInTheTextarea(java.lang.String)"
             },
             "keyword": "When "
           },
@@ -72,43 +68,43 @@
               "status": "passed"
             },
             "line": 8,
-            "name": ":i clicked to button login",
+            "name": ":i clicked to button search",
             "match": {
-              "location": "steps_dif.Login_passed.Login_click()"
+              "location": "steps_dif.Search_passed.iClickedToButtonSearch()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 7030000000,
+              "duration": 2015000000,
               "status": "passed"
             },
             "line": 9,
-            "name": ":i should login in in the name \"Wadi Aizouky\"",
+            "name": "i will see the word \"Blouse\" in the result",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Wadi Aizouky\"",
-                  "offset": 31
+                  "val": "\"Blouse\"",
+                  "offset": 20
                 }
               ],
-              "location": "steps_dif.Login_passed.Check_login(java.lang.String)"
+              "location": "steps_dif.Search_passed.iWillSeeTheWordInTheResult(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Login"
+            "name": "@Search"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-04T09:09:48.170Z",
+        "start_timestamp": "2022-07-04T13:43:21.221Z",
         "before": [
           {
             "result": {
-              "duration": 991000000,
+              "duration": 992000000,
               "status": "passed"
             },
             "match": {
@@ -117,13 +113,13 @@
           }
         ],
         "line": 21,
-        "name": "Login to site failed",
+        "name": "Search an element Not exist(Element not found)",
         "description": "",
-        "id": "login;login-to-site-failed;;2",
+        "id": "search;search-an-element-not-exist(element-not-found);;2",
         "after": [
           {
             "result": {
-              "duration": 604000000,
+              "duration": 606000000,
               "status": "passed"
             },
             "match": {
@@ -136,84 +132,79 @@
         "steps": [
           {
             "result": {
-              "duration": 2106000000,
+              "duration": 6497000000,
               "status": "passed"
             },
             "line": 15,
-            "name": ": The Browser and URL of the site is open",
+            "name": "The Browser and URL of the site is open and i\u0027m in Main page",
             "match": {
-              "location": "steps_dif.Login_Not_passed.theBrowserAndURLOfTheSiteIsOpen()"
+              "location": "steps_dif.Search_Not_passed.theBrowserAndURLOfTheSiteIsOpenAndIMInMainPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4667000000,
+              "duration": 3064000000,
               "status": "passed"
             },
             "line": 16,
-            "name": ":Write Username with \"samis@gmail.com\" and Password with \"Wade11223344\" in textbox",
+            "name": "I enterd the word \"Grave\" in the textarea",
             "match": {
               "arguments": [
                 {
-                  "val": "\"samis@gmail.com\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"Wade11223344\"",
-                  "offset": 57
+                  "val": "\"Grave\"",
+                  "offset": 18
                 }
               ],
-              "location": "steps_dif.Login_Not_passed.writeUsernameWithAndPasswordWithInTextbox(java.lang.String,java.lang.String)"
+              "location": "steps_dif.Search_Not_passed.iEnterdTheWordInTheTextarea(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 17,
-            "name": ":When i clicked to button login",
+            "name": ":I clicked to button search",
             "match": {
-              "location": "steps_dif.Login_Not_passed.whenIClickedToButtonLogin()"
+              "location": "steps_dif.Search_Not_passed.iClickedToButtonSearch()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 7025000000,
+              "duration": 2010000000,
               "status": "passed"
             },
             "line": 18,
-            "name": ":The error message should appear \"Errer\"",
+            "name": "i will not see the word \"Grave\" in the result",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Errer\"",
-                  "offset": 33
+                  "val": "\"Grave\"",
+                  "offset": 24
                 }
               ],
-              "location": "steps_dif.Login_Not_passed.theErrorMessageShouldAppear(java.lang.String)"
+              "location": "steps_dif.Search_Not_passed.iWillNotSeeTheWordInTheResult(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Login"
+            "name": "@Search"
           }
         ]
       }
     ],
-    "name": "Login",
-    "description": "  Login to site with Username and Password",
-    "id": "login",
+    "name": "Search",
+    "description": "  Search an element in the site",
+    "id": "search",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Login.feature",
+    "uri": "file:src/test/resources/features/Search.feature",
     "tags": [
       {
-        "name": "@Login",
+        "name": "@Search",
         "type": "Tag",
         "location": {
           "line": 1,

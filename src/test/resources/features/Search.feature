@@ -1,3 +1,4 @@
+@Search
 Feature: Search
   Search an element in the site
 

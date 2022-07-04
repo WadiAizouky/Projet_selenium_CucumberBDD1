@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","json:target/json/Result.json"},
         features = {"src/test/resources/features"},
         glue = {"modules","steps_dif"},
-        tags = {"@Login"}
+        tags = {"@Search"}
 )
 public class TestRunner {
 }

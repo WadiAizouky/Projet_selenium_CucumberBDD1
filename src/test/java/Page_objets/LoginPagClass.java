@@ -40,14 +40,12 @@ public class LoginPagClass {
     public static void CheckLoginPassant(String name) throws InterruptedException {
         Thread.sleep(2000);
         Assert.assertEquals(Checkbtn.getText(),name);
-        Thread.sleep(5000);
     }
 
     //Checked for testcase not passed
     public static void CheckLoginNonPassant(String name) throws InterruptedException {
         Thread.sleep(2000);
         Assert.assertEquals(ErrerMessage.getText(),"There is 1 error");
-        Thread.sleep(5000);
     }
 
 }
