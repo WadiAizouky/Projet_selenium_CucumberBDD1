@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-04T13:43:02.672Z",
+        "start_timestamp": "2022-07-04T15:34:29.388Z",
         "before": [
           {
             "result": {
-              "duration": 2089000000,
+              "duration": 2079000000,
               "status": "passed"
             },
             "match": {
@@ -16,13 +16,13 @@
           }
         ],
         "line": 12,
-        "name": "Search an element exist",
+        "name": "Add product to the cart and verifier",
         "description": "",
-        "id": "search;search-an-element-exist;;2",
+        "id": "add-one-product;add-product-to-the-cart-and-verifier;;2",
         "after": [
           {
             "result": {
-              "duration": 611000000,
+              "duration": 621000000,
               "status": "passed"
             },
             "match": {
@@ -35,176 +35,73 @@
         "steps": [
           {
             "result": {
-              "duration": 3900000000,
+              "duration": 11175000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "the Browser and URL of the site is open and i\u0027m in Main page",
+            "name": "The Browser and URL of the site are open and i\u0027m in Main page",
             "match": {
-              "location": "steps_dif.Search_passed.theBrowserAndURLOfTheSiteIsOpenAndIMInMainPage()"
+              "location": "steps_dif.AddProduct.OpenBrowser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 9891000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "i enterd the word \"Blouse\" in the textarea",
+            "name": "i clicked to the product",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Blouse\"",
-                  "offset": 18
-                }
-              ],
-              "location": "steps_dif.Search_passed.iEnterdTheWordInTheTextarea(java.lang.String)"
+              "location": "steps_dif.AddProduct.ProductClick()"
             },
             "keyword": "When "
           },
           {
             "result": {
+              "duration": 7285000000,
               "status": "passed"
             },
             "line": 8,
-            "name": ":i clicked to button search",
+            "name": "i changed the property like the Quantity to \"2\" and i clicked to Add to cart",
             "match": {
-              "location": "steps_dif.Search_passed.iClickedToButtonSearch()"
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps_dif.AddProduct.ChangedTheQuantity(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2015000000,
+              "duration": 2027000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "i will see the word \"Blouse\" in the result",
+            "name": "we will see the message Product successfully added to your shopping cart",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Blouse\"",
-                  "offset": 20
-                }
-              ],
-              "location": "steps_dif.Search_passed.iWillSeeTheWordInTheResult(java.lang.String)"
+              "location": "steps_dif.AddProduct.MessageCheck()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Search"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-04T13:43:21.221Z",
-        "before": [
-          {
-            "result": {
-              "duration": 992000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "modules.Hooks.Setup()"
-            }
-          }
-        ],
-        "line": 21,
-        "name": "Search an element Not exist(Element not found)",
-        "description": "",
-        "id": "search;search-an-element-not-exist(element-not-found);;2",
-        "after": [
-          {
-            "result": {
-              "duration": 606000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "modules.Hooks.finish()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 6497000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "The Browser and URL of the site is open and i\u0027m in Main page",
-            "match": {
-              "location": "steps_dif.Search_Not_passed.theBrowserAndURLOfTheSiteIsOpenAndIMInMainPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3064000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I enterd the word \"Grave\" in the textarea",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Grave\"",
-                  "offset": 18
-                }
-              ],
-              "location": "steps_dif.Search_Not_passed.iEnterdTheWordInTheTextarea(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 17,
-            "name": ":I clicked to button search",
-            "match": {
-              "location": "steps_dif.Search_Not_passed.iClickedToButtonSearch()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2010000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "i will not see the word \"Grave\" in the result",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Grave\"",
-                  "offset": 24
-                }
-              ],
-              "location": "steps_dif.Search_Not_passed.iWillNotSeeTheWordInTheResult(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Search"
+            "name": "@AddProduct"
           }
         ]
       }
     ],
-    "name": "Search",
-    "description": "  Search an element in the site",
-    "id": "search",
+    "name": "Add one Product",
+    "description": "  Add one product to the cart",
+    "id": "add-one-product",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Search.feature",
+    "uri": "file:src/test/resources/features/Add_Products.feature",
     "tags": [
       {
-        "name": "@Search",
+        "name": "@AddProduct",
         "type": "Tag",
         "location": {
           "line": 1,

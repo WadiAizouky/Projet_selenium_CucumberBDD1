@@ -1,5 +1,6 @@
 package modules;
 
+import Page_objets.AddProductPageClass;
 import Page_objets.LoginPagClass;
 import Page_objets.SearchPageClsee;
 import io.cucumber.java.After;
@@ -12,12 +13,14 @@ public class Hooks {
     public static WebDriver webDriver;
     public static LoginPagClass LoginInstance = new LoginPagClass();
     public static SearchPageClsee searchInstance = new SearchPageClsee();
+    public static AddProductPageClass AddProductInstance = new AddProductPageClass();
 
     @Before
     public void Setup(){
         webDriver = get_driver();
         PageFactory.initElements(webDriver,LoginInstance);
         PageFactory.initElements(webDriver,searchInstance);
+        PageFactory.initElements(webDriver,AddProductInstance);
     }
 
     @After
