@@ -77,7 +77,7 @@ public class FirstTest {
         //pour un élément
         WebElement TexteElement = webDriver.findElement(By.id("small-searchterms"));
         File TexteFile = TexteElement.getScreenshotAs(OutputType.FILE);
-        File Destenation = new File("Search Texte.png");
+        File Destenation = new File("steps_dif.Search Texte.png");
         FileUtils.copyFile(TexteFile,Destenation);
 
         //pour la page web
