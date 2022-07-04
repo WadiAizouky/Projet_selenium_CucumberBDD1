@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-04T08:36:36.105Z",
+        "start_timestamp": "2022-07-04T09:09:30.255Z",
         "before": [
           {
             "result": {
-              "duration": 2322000000,
+              "duration": 2141000000,
               "status": "passed"
             },
             "match": {
@@ -16,110 +16,9 @@
           }
         ],
         "line": 12,
-        "name": "Login to site",
+        "name": "Login to site passed",
         "description": "",
-        "id": "login;login-to-site;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 630000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "modules.Hooks.finish()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2195000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": ": the Browser and URL of the site is open",
-            "match": {
-              "location": "steps_dif.Login.OpenBrowser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5702000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": ":write Username with \"wadi.aizoukyu@gmail.com\" and Password with \"Wade11223344\" in textbox",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"wadi.aizoukyu@gmail.com\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"Wade11223344\"",
-                  "offset": 65
-                }
-              ],
-              "location": "steps_dif.Login.WriteInfo(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 8,
-            "name": ":i clicked to button login",
-            "match": {
-              "location": "steps_dif.Login.Login_click()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 7034000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": ":i should login in in the name \"Wadi Aizouky\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Wadi Aizouky\"",
-                  "offset": 31
-                }
-              ],
-              "location": "steps_dif.Login.Check_login(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Login"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-04T08:36:54.033Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1001000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "modules.Hooks.Setup()"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "Login to site",
-        "description": "",
-        "id": "login;login-to-site;;3",
+        "id": "login;login-to-site-passed;;2",
         "after": [
           {
             "result": {
@@ -136,23 +35,124 @@
         "steps": [
           {
             "result": {
-              "duration": 2963000000,
+              "duration": 2793000000,
               "status": "passed"
             },
             "line": 6,
             "name": ": the Browser and URL of the site is open",
             "match": {
-              "location": "steps_dif.Login.OpenBrowser()"
+              "location": "steps_dif.Login_passed.OpenBrowser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4577000000,
+              "duration": 5302000000,
               "status": "passed"
             },
             "line": 7,
-            "name": ":write Username with \"samis@gmail.com\" and Password with \"Wade11223344\" in textbox",
+            "name": ":write Username with \"wadi.aizoukyu@gmail.com\" and Password with \"Wade11223344\" in textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wadi.aizoukyu@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Wade11223344\"",
+                  "offset": 65
+                }
+              ],
+              "location": "steps_dif.Login_passed.WriteInfo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ":i clicked to button login",
+            "match": {
+              "location": "steps_dif.Login_passed.Login_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7030000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ":i should login in in the name \"Wadi Aizouky\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wadi Aizouky\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps_dif.Login_passed.Check_login(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-04T09:09:48.170Z",
+        "before": [
+          {
+            "result": {
+              "duration": 991000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login to site failed",
+        "description": "",
+        "id": "login;login-to-site-failed;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 604000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2106000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ": The Browser and URL of the site is open",
+            "match": {
+              "location": "steps_dif.Login_Not_passed.theBrowserAndURLOfTheSiteIsOpen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4667000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": ":Write Username with \"samis@gmail.com\" and Password with \"Wade11223344\" in textbox",
             "match": {
               "arguments": [
                 {
@@ -164,36 +164,37 @@
                   "offset": 57
                 }
               ],
-              "location": "steps_dif.Login.WriteInfo(java.lang.String,java.lang.String)"
+              "location": "steps_dif.Login_Not_passed.writeUsernameWithAndPasswordWithInTextbox(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": ":i clicked to button login",
+            "line": 17,
+            "name": ":When i clicked to button login",
             "match": {
-              "location": "steps_dif.Login.Login_click()"
+              "location": "steps_dif.Login_Not_passed.whenIClickedToButtonLogin()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 7034000000,
+              "duration": 7025000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": ":i should login in in the name \"Np\"",
+            "line": 18,
+            "name": ":The error message should appear \"Errer\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Np\"",
-                  "offset": 31
+                  "val": "\"Errer\"",
+                  "offset": 33
                 }
               ],
-              "location": "steps_dif.Login.Check_login(java.lang.String)"
+              "location": "steps_dif.Login_Not_passed.theErrorMessageShouldAppear(java.lang.String)"
             },
             "keyword": "Then "
           }

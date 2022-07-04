@@ -4,18 +4,12 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
+
 import static Page_objets.LoginPagClass.Login;
 import  static Page_objets.LoginPagClass.*;
 import static modules.Hooks.webDriver;
 
-public class Login {
+public class Login_passed {
     @Given(": the Browser and URL of the site is open")
     public void OpenBrowser() {
         webDriver.get("http://automationpractice.com/index.php");
@@ -33,14 +27,8 @@ public class Login {
 
     @Then(":i should login in in the name {string}")
     public void Check_login(String arg0) throws InterruptedException {
-        if(!arg0.equals("Np")){
             System.out.println("passant");
             CheckLoginPassant(arg0);
-        }
-        else{
-            System.out.println("Nonpassant");
-            CheckLoginNonPassant(arg0);
-        }
 
     }
 }
