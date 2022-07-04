@@ -19,11 +19,12 @@ public class LoginPagClass {
     @FindBy(xpath = "//body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]/i[1]")
     private static WebElement LoginBtn;
 
-    @FindBy(css = "body.my-account.hide-left-column.hide-right-column.lang_en:nth-child(2) div.header-container div.nav:nth-child(2) div.container div.row nav:nth-child(1) div.header_user_info:nth-child(1) a.account > span:nth-child(1)")
+    @FindBy(xpath = "//a[@class='account']/span")
     private static WebElement Checkbtn;
 
-    @FindBy(css = "body.authentication.hide-left-column.hide-right-column.lang_en:nth-child(2) div.columns-container div.container div.row:nth-child(3) div.center_column.col-xs-12.col-sm-12 div.alert.alert-danger > p:nth-child(1)")
+    @FindBy(xpath = "//div[@class='alert alert-danger']/p")
     private static WebElement ErrerMessage;
+
 
     //the methodes
     //Login methode
