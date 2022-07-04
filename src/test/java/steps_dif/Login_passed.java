@@ -29,6 +29,5 @@ public class Login_passed {
     public void Check_login(String arg0) throws InterruptedException {
             System.out.println("passant");
             CheckLoginPassant(arg0);
-
     }
 }
