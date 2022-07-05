@@ -4,12 +4,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 import static Page_objets.AddProductPageClass.*;
-
 import static modules.Hooks.webDriver;
 
 public class AddProduct {

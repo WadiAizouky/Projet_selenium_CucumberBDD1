@@ -1,0 +1,120 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-05T14:17:02.506Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2117000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "we have 2 products in the cart and we will do check out",
+        "description": "",
+        "id": "check-out;we-have-2-products-in-the-cart-and-we-will-do-check-out",
+        "after": [
+          {
+            "result": {
+              "duration": 628000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "modules.Hooks.finish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18739000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The site open and we have tow products in the cart and we are singed in",
+            "match": {
+              "location": "steps_dif.CheckOut.Openbrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3788000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click check out and i click start the procces",
+            "match": {
+              "location": "steps_dif.CheckOut.Start()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7017000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i select the delivery adress and i agree the Terms of service",
+            "match": {
+              "location": "steps_dif.CheckOut.Deliverycheck()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7096000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i checked the price total and i select the payment method",
+            "match": {
+              "location": "steps_dif.CheckOut.Paymentmethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2026000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i should see the message Your order on My Store is complete that mean the payment procces is completed",
+            "match": {
+              "location": "steps_dif.CheckOut.check()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckOut"
+          }
+        ]
+      }
+    ],
+    "name": "Check out",
+    "description": "",
+    "id": "check-out",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Payment.feature",
+    "tags": [
+      {
+        "name": "@CheckOut",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
