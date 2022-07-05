@@ -25,6 +25,8 @@ le projet est divisé en plusieurs répertoire de travail dont en utilisant POM(
 * leurs implémentations en Java ou les fichiers de tests.
 * paramétrés d'environnement.
 * compatibilité avec les navigateur Chrome, Firfox, Edge, internet explorer.
+* Fichier yml pour la configuration CI/CD avec GitHub Action.
+* Fichier POM pour l'installation aitomatisée de dépendances.
 
 Les défis rencontrés:
 * la synchronisation ( il faut mettre en place des points de attant afin de avoir un téléchargement compléts d'objets de la page.
