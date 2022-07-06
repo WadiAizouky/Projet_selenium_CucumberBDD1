@@ -31,6 +31,8 @@ le projet est divisé en plusieurs répertoire de travail dont en utilisant POM(
 **Les fonctionnalités principaux**
 * utilisation variée de plusieur méthode d'identification d'objet(Id, Tag, Cass selecter, Xpath, Relative idintifiant).
 * Junit pour mettre en place des Asserts et checkpoints.
+* fichier de configuration de navigateur permettant de lancer les cas de tests sur plusieur navigateurs.
+* un fonctionnalité pour exécuter les cas de tests sans lancer navigateur pour avoir une exécution rapide.
 * un fichier yml(fichier de configuration).
 
 **Les défis rencontrés**:
