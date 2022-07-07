@@ -3,7 +3,7 @@ Un Framwork pour automatiser un site web e-commerce avec Selenium en l'itégrant
 
 **périmètre de test** : site web http://automationpractice.com/index.php .
 
-**Les techniques utilisés** : Java, intellij IDE, Maven, BDD Cucumber, Selenium web driver.
+**Les techniques utilisés** : Java, intellij IDE, Maven, Jenkins, BDD Cucumber, Selenium web driver.
 
 **La configuration** : faite avec Maven pour automatiser l'installation de dépendances :
 * API selenium web driver
@@ -34,10 +34,12 @@ le projet est divisé en plusieurs répertoire de travail dont en utilisant POM(
 * fichier de configuration de navigateur permettant de lancer les cas de tests sur plusieur navigateurs.
 * un fonctionnalité pour exécuter les cas de tests sans lancer navigateur pour avoir une exécution rapide.
 * un fichier yml(fichier de configuration).
+* intégration avec CI jenkins.
 
 **Les défis rencontrés**:
-* la synchronisation ( il faut mettre en place des points de attant afin de avoir un téléchargement compléts d'objets de la page.
-* Une fois le projet devin grand, l'exécution est lente.
+* la synchronisation ( il faut mettre en place des points de attante afin d'avoir un téléchargement complét d'objets de la page.
+* Une fois le projet devint grand, l'exécution sera lente.
 * pour l'exécution par lots il faut utiliser un autre outil(px: ligne de commande)
-* Construire des flows d'actions est difficile.
+* la construction des flows d'actions est difficile.
 * probléme avec les objets cachés.
+* pour fournir un rapport détails avec capture d'écrin est difficle
